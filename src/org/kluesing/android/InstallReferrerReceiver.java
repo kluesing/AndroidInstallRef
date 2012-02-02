@@ -19,7 +19,7 @@ public class InstallReferrerReceiver extends BroadcastReceiver{
     public static final String SKEY_CAMPAIGN = "SKEY_CAMPAIGN";
     public static final String SKEY_KEYWORD = "SKEY_KEYWORD";
     
-    // set the referal keys into shared preferences for the main activity to
+    // set the referral keys into shared preferences for the main activity to
     // read on launch.
     public void setSharedPrefKey(Context context, String key, String value){
         SharedPreferences settings = context.getSharedPreferences(INSTALL_REF_PREFS, 0);
